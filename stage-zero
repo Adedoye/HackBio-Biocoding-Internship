@@ -1,0 +1,56 @@
+# Store the information of the team using lists
+names = ["Obadare Adedoye Obafolaju", "Adaaja Faith", "Abisoye Ogungbe", "Urum Francis"]
+slack_usernames = ["Adedoye Obafolaju", "Adaaja", "Abisoye", "Uwanu"]
+emails = ["adedoyeobafolaju@gmail.com", "faithadaaja@gmail.com", "ogungbeadebola24@gmail.com", "urumfrank6@gmail.com"]
+hobbies = ["Taking Pictures", "Fashion designing", "Reading", "Music listening"]
+countries = ["Nigeria", "Nigeria", "Nigeria", "Nigeria"]
+disciplines = ["Cell Biology and Genetics", "Cell Biology and Genetics", "Cell Biology and Genetics", "Cell Biology and Genetics"]
+preferred_programming_languages = ["Python", "Python", "Python", "Python"]
+
+# Create a single formatted output string for all participants
+team_info = (
+    f"Team Information:\n\n"
+    
+    f"Participant 1:\n"
+    f"==============\n"
+    f"Name: {names[0]}\n"
+    f"Slack Username: {slack_usernames[0]}\n"
+    f"Email: {emails[0]}\n"
+    f"Hobby: {hobbies[0]}\n"
+    f"Country: {countries[0]}\n"
+    f"Discipline: {disciplines[0]}\n"
+    f"Preferred Programming Language: {preferred_programming_languages[0]}\n\n"
+    
+    f"Participant 2:\n"
+    f"==============\n"
+    f"Name: {names[1]}\n"
+    f"Slack Username: {slack_usernames[1]}\n"
+    f"Email: {emails[1]}\n"
+    f"Hobby: {hobbies[1]}\n"
+    f"Country: {countries[1]}\n"
+    f"Discipline: {disciplines[1]}\n"
+    f"Preferred Programming Language: {preferred_programming_languages[1]}\n\n"
+
+    f"Participant 3:\n"
+    f"==============\n"
+    f"Name: {names[2]}\n"
+    f"Slack Username: {slack_usernames[2]}\n"
+    f"Email: {emails[2]}\n"
+    f"Hobby: {hobbies[2]}\n"
+    f"Country: {countries[2]}\n"
+    f"Discipline: {disciplines[2]}\n"
+    f"Preferred Programming Language: {preferred_programming_languages[2]}\n\n"
+
+    f"Participant 4:\n"
+    f"==============\n"
+    f"Name: {names[3]}\n"
+    f"Slack Username: {slack_usernames[3]}\n"
+    f"Email: {emails[3]}\n"
+    f"Hobby: {hobbies[3]}\n"
+    f"Country: {countries[3]}\n"
+    f"Discipline: {disciplines[3]}\n"
+    f"Preferred Programming Language: {preferred_programming_languages[3]}"
+)
+
+# Print the formatted output for all participants in one command
+print(team_info)
